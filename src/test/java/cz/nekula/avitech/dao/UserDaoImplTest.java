@@ -16,6 +16,9 @@ import java.util.UUID;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * Testing UserDao with H2 in-memory database.
+ */
 class UserDaoImplTest {
 
     private static final String JDBC_URL = "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1";
