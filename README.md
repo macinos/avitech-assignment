@@ -8,7 +8,7 @@ Supported commands are the following:
 - **PrintAll** – prints all users into standard output
 - **DeleteAll** – deletes all users from database
 
-User is defined as database table SUSERS with columns (USER_ID, USER_GUID, USER_NAME)
+User is defined as database table `SUSERS` with columns `(USER_ID, USER_GUID, USER_NAME)`
 Demonstrate program on the following sequence (using main method or test):
 
 - Add (1, &quot;a1&quot;, &quot;Robert&quot;)
@@ -31,3 +31,11 @@ Messages are passed from `UserCommandProducer` to `UserCommandConsumer` as insta
 The message queue has the form of a `LinkedBlockingQueue`.
 
 Users are stored in an in-memory H2 database.
+
+# Study materials
+- Effective Java 3.E item 80
+- https://www.baeldung.com/java-producer-consumer-problem
+- https://www.baeldung.com/java-executor-service-tutorial
+- https://www.baeldung.com/java-blocking-queue
+- https://www.baeldung.com/java-interrupted-exception
+- https://www.softwaretestinghelp.com/java-queue-interface/
